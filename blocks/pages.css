@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Inter';
+  src: url(../vendor/fonts/Inter.woff2) format('woff2');
+  font-weight: normal;
+}
+
+html{
+  background-color: black;
+}
+
+.page {
+  max-width: 1280px;
+  width: 100%;
+  padding: 0 40px;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+  box-sizing: border-box; 
+
+}
+
+@media screen and (max-width: 1024px) {
+  .page {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .page {
+    padding: 0 15px; 
+  }
+}

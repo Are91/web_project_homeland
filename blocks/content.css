@@ -1,0 +1,105 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+.content__column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 830px; 
+  gap: 24px;  
+}
+
+
+.content__column-title{
+  width: 100%;
+  max-width: 830px;
+  font-size: 54px;
+  line-height: 1.07;
+}
+
+
+.content__column-quote{
+  width: 100%;
+  max-width: 738px;
+  font-size: 24px;
+  line-height: 1.41;
+  margin: 0;
+}
+
+
+.content__column-quote-cite{
+  display: block;
+  width: 100%;
+  max-width: 732px;
+  font-size: 24px;
+  line-height: 1.41;
+  text-align: right;
+  margin-bottom: 40px;
+}
+
+
+.content__column-text {
+  width: 100%;
+  max-width: 722px;
+  font-size: 16px;
+  line-height: 1.63;
+  margin: 0;
+}
+
+
+@media screen and (max-width: 1024px) {
+  
+.content__column-title{
+  max-width: 707px;
+  margin: 0 auto;
+}
+
+.content__column-quote{
+  max-width: 720px;
+}
+
+
+.content__column-quote-cite{
+  max-width: 720px;
+}
+
+
+.content__column-text {
+  max-width: 720px;
+}
+
+}
+
+@media screen and (max-width: 544px) {
+  
+.content__column-title{
+  max-width: 288px;
+  font-size: 32px;
+  line-height: 1.1;
+}
+
+.content__column-quote{
+  max-width: 288px;
+  font-size: 24px;
+  line-height: 1.3;
+  margin: 0 auto;
+}
+
+
+.content__column-quote-cite{
+  max-width: 288px;
+  font-size: 24px;
+  line-height: 1.3;
+}
+
+
+.content__column-text {
+  max-width: 288px;
+}
+
+}
