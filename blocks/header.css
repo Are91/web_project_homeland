@@ -53,9 +53,6 @@
   font-size: 30px;
 }
 
-.header__image {
-  max-width: 768px;
-}
 
 }
 
@@ -70,9 +67,7 @@
   font-size: 16px;
 }
 
-.header__image {
-  max-width: 320px;
-}
 
 
 }
+
