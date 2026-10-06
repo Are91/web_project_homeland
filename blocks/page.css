@@ -1,5 +1,6 @@
 html{
-  background-color: black;
+  background-color: #2A2C2F;
+
 }
 
 .page {
@@ -12,7 +13,8 @@ html{
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  background-color: black;
+  background-color: #2A2C2F;
+;
   color: white;
   margin: 0 auto;
   box-sizing: border-box; 
