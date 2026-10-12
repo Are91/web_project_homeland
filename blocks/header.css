@@ -44,10 +44,6 @@
     font-size: 75px;
   }
 
-  .header__image {
-    box-shadow: 10px 10px 25px 0px #00000080;
-  }
-
   .header__subtitle {
     max-width: 720px;
     font-size: 30px;
@@ -58,10 +54,6 @@
   .header__title {
     max-width: 228px;
     font-size: 40px;
-  }
-
-  .header__image {
-    box-shadow: 10px 10px 25px 0px #00000080;
   }
 
   .header__subtitle {
